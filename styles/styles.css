@@ -1,0 +1,160 @@
+/*fonts*/
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    src:url("fonts/inter-400.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    src:url("fonts/inter-700.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 900;
+    src:url("fonts/inter-900.woff2") format("woff2");
+    font-display: swap;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    color: #2D3440;
+    background-color: #ffffff;
+}
+
+.button {
+    text-align: center;
+    color:#2D3440;
+    background-color: #FCFCFC;
+    border-radius: 26px;
+    width: 139px;
+    height: 44px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+}
+
+.button-pink {
+    text-align: center;
+    color: #FCFCFC;;
+    background-color: #FF2F64;;
+    border-radius: 26px;
+    width: 139px;
+    height: 44px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+}
+
+.button-pink-form {
+    text-align: center;
+    color: #FCFCFC;;
+    background-color: #FF2F64;;
+    border-radius: 26px;
+    width: 250px;
+    height: 44px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+}
+
+.page-header{
+    color: inherit;
+    background-color: inherit;
+}
+
+.navigation-list a{
+    line-height: 20px;
+    color: #2D3440;
+    text-decoration: none;
+    text-align: center;
+}
+
+.slider-header {
+    font-size: 36px;
+    line-height: 46px;
+}
+
+.slider-description {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.order-and-gifts, .try-products{
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+}
+
+.product-name {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.product-price {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.raspberry-gift, .marshmallow-gift{
+    color:#2D3440;
+    background-color: #FF7799;
+    width: 570px;
+    height: 268px;
+    border-radius: 16px;
+}
+
+.popular-products {
+    text-align: center;
+}
+
+
+
+.about-header {
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+}
+
+.blog-description {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+/*.about {
+    color:#2D3440;
+    background-color: #ffffff;
+    width: 1122px;
+    height: 432px;
+    border-radius: 16px;
+}*/
+
+.product-description, .about-description, .blog-new, .submit-description{
+    font-size: 16px;
+    line-height: 22px;
+    color: #565C66;
+}
+
+.blog-description {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.input-form {
+    height: 48px;
+    border-radius: 4px;
+}
+
